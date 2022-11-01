@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+  <context-param>
+    <param-name>id</param-name>
+    <param-value>824</param-value>
+  </context-param>
+  <context-param>
+    <param-name>name</param-name>
+    <param-value>Prince</param-value>
+  </context-param>
+  <servlet>
+    <init-param>
+      <param-name>uname</param-name>
+      <param-value>prince</param-value>
+    </init-param>
+    <servlet-name>servletone</servlet-name>
+    <servlet-class>demo.ServletOne</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servletone</servlet-name>
+    <url-pattern>/servletone</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <init-param>
+      <param-name>pwd</param-name>
+      <param-value>123</param-value>
+    </init-param>
+    <servlet-name>servlettwo</servlet-name>
+    <servlet-class>demo.ServletTwo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servlettwo</servlet-name>
+    <url-pattern>/servlettwo</url-pattern>
+  </servlet-mapping>
+</web-app>

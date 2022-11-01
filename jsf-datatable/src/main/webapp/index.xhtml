@@ -1,0 +1,29 @@
+<HTML xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+<HEAD>
+<TITLE>JSF Data</TITLE>
+</HEAD>
+<BODY>
+<H3>Student Details</H3>
+<h:form>
+<h:dataTable value="#{studentdata.list}" var="row">
+<h:column>
+<f:facet name="header">Student Name</f:facet>
+#{row.name}
+</h:column>
+<h:column>
+<f:facet name="header">Student ID</f:facet>
+#{row.id}
+</h:column>
+<h:column>
+<f:facet name="header">Student Dept</f:facet>
+#{row.dept}
+</h:column>
+
+</h:dataTable>
+
+</h:form>
+
+</BODY>
+
+</HTML>

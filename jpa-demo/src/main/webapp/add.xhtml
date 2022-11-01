@@ -1,0 +1,16 @@
+<HTML xmlns:h="http://java.sun.com/jsf/html">
+<HEAD>
+<TITLE>Insert Data</TITLE>
+
+</HEAD>
+<BODY>
+	<H3>Insert Data using JSF</H3>
+	<h:form>
+		<p>EmpId:<h:inputText value="#{emp.empid}" /></p>
+		<p>EmpName<h:inputText value="#{emp.name}" /></p>
+		<p>EmpSalary<h:inputText value="#{emp.salary}" /></p>
+		<p><h:commandButton action="#{emp.callInsert()}" value="Insert" /></p>
+		<p><h:outputLabel value="#{emp.response}" /></p>
+	</h:form>
+</BODY>
+</HTML>

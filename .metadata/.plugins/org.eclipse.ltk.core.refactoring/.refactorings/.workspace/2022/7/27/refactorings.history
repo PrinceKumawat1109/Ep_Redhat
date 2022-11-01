@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ejb-stateless&apos; to &apos;In-sem-2&apos;" description="Rename resource &apos;ejb-stateless&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/ejb-stateless" name="In-sem-2" stamp="1656755365525" updateReferences="true"/>
+</session>

@@ -1,0 +1,16 @@
+<html xmlns:h="http://java.sun.com/jsf/html">
+<head>
+	<title>JMS Demo</title>
+</head>
+<body>
+	<h3>Java Messaging Service (JMS)</h3>
+	<h:form>
+		<p>Enter the message : <h:inputText value="#{jms.msg}" /> </p>
+		<p>
+			<h:commandButton action="#{jms.sendMsg()}" value="send" />
+			<h:commandButton action="#{jms.receiveMsg()}" value="receive" />
+		</p>
+		<p>Message: <h:outputLabel value="#{jms.response}" /></p>
+	</h:form>
+</body>
+</html> 

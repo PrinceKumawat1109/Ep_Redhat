@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hotel>
+	<menu>
+ 		<dishname>Fast Food</dishname>
+ 		<price>300</price>
+ 		<discount>15%</discount>
+ 		<calories>450</calories>
+ 	</menu>
+ 	<menu>
+ 		<dishname>chicken biriyani</dishname>
+ 		<price>120</price>
+ 		<discount>10%</discount>
+ 		<calories>200</calories>
+ 	</menu>
+ 	<menu>
+ 		<dishname>prawns biriyani</dishname>
+ 		<price>150</price>
+ 		<discount>12%</discount>
+ 		<calories>150</calories>
+ 	</menu>
+ 	<menu>
+ 		<dishname>fish biriyani</dishname>
+ 		<price>110</price>
+ 		<discount>15%</discount>
+ 		<calories>250</calories>
+ 	</menu>
+ 	<menu>
+ 		<dishname>mutton biriyani</dishname>
+ 		<price>210</price>
+ 		<discount>25%</discount>
+ 		<calories>350</calories>
+ 	</menu>
+ 	<menu>
+ 		<dishname>Veg biriyani</dishname>
+ 		<price>250</price>
+ 		<discount>22%</discount>
+ 		<calories>160</calories>
+ 	</menu>
+</hotel>

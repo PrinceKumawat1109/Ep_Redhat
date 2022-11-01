@@ -1,0 +1,27 @@
+<html xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+<head>
+<title>JSF validation</title>
+</head>
+<body>
+<h3>JSF Face validation</h3>
+<h:form>
+        Name:<h:inputText value="#{user.name}" id="name" validatorMessage="value is required">
+  <f:validateRequired/>
+  </h:inputText>
+  <h:message for="name" style="color:red"/>
+  <br/><br/>
+       Age:<h:inputText value="#{user.age}" id="age" validatorMessage="age between 18 and 30">
+  <f:validateLongRange minimum="18" maximum="30"/>
+  </h:inputText>
+  <h:message for="age" style="color:red"/>
+  <br/><br/>
+       Mobile No:<h:inputText value="#{user.mobileno}" id="mno" validatorMessage="mobile number should have 10 digits">
+   <f:validateLength minimum="10" maximum="10"/>
+   </h:inputText>
+   <h:message for="mno" style="color:red"/>
+  <br/><br/>
+  <h:commandButton action="response" value="Submit" />
+  </h:form>
+</body>
+</html>

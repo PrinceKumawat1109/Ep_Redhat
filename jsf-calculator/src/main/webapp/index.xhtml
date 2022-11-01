@@ -1,0 +1,21 @@
+<HTML xmlns:h="http://java.sun.com/jsf/html">
+<HEAD>
+<TITLE>JSF Program</TITLE>
+</HEAD>
+<BODY>
+<H3>Hello I am Calculator!</H3>
+<h:form>
+  input A:<h:inputText value="#{calc.a}" type="text" />
+  <br/><br/>
+  input B:<h:inputText value="#{calc.b}" type="text"/>
+  <br/><br/>
+  Result=#{calc.c}
+  <br/><br/>
+  <h:commandButton action="#{calc.add()}" value="ADD" />
+  <br/><br/>
+  	
+  <h:commandButton action="#{calc.sub()}" value="SUB" />
+</h:form>
+</BODY>
+
+</HTML>

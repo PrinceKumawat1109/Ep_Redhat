@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/princ/.m2/repository/junit/junit/4.11/junit-4.11.jar"/>
+  <path value="C:/Users/princ/.m2/repository/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar"/>
+  <path value="/jsf-datatable/src/main/webapp/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="jsf-datatable"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/princ/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+  <path value="E:/EP_Redhat/jsf-datatable/src/main/webapp/WEB-INF/lib/mysql-connector-java-8.0.29.jar"/>
+  <path value="C:/Users/princ/.m2/repository/org/jboss/spec/javax/faces/jboss-jsf-api_2.2_spec/2.2.14/jboss-jsf-api_2.2_spec-2.2.14.jar"/>
+  <path value="C:/Users/princ/.m2/repository/mysql/mysql-connector-java/8.0.29/mysql-connector-java-8.0.29.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core"/>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="15" name="%0" offset="455" path="%1"/>
+   <linked-el length="13" name="%0" offset="372" path="%1"/>
+   <linked-el length="15" name="%0" offset="289" path="%1"/>
+   <linked-el length="22" name="%2" offset="198" path="%1"/>
+   <linked-el length="15" name="%3" offset="455" path="%1"/>
+   <linked-el length="13" name="%3" offset="372" path="%1"/>
+   <linked-el length="22" name="%3" offset="198" path="%1"/>
+   <linked-el length="15" name="%3" offset="289" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="/jsf-datatable/src/main/webapp/index.xhtml" value="%1"/>
+  <alias path="/jsf-datatable/src/main/java/com/model/Student.java" value="%0"/>
+  <alias
+   path="/jsf-datatable/src/main/java/com/controller/StudentData.java" value="%2"/>
+  <alias path="studentdata" value="%3"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+ </uris>
+</kb-project>

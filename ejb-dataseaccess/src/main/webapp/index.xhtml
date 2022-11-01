@@ -1,0 +1,37 @@
+<html xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+<head>
+     <title>EJB-Database Access</title>
+</head>
+<body>
+    <h3>Add Employee Details</h3>
+    <h:form>
+         <p>Employee ID:<h:inputText value="#{emp.empid}"/></p>
+         <p>Employee Name:<h:inputText value="#{emp.name}"/></p>
+         <p>Employee Salary:<h:inputText value="#{emp.salary}"/></p>
+         <p><h:outputLabel value="#{emp.response}"/></p>
+         <table>
+         <tr>
+         <td><h:commandButton action="#{emp.save()}" value="Save" /></td>
+         <td><h:commandButton action="#{emp.update()}" value="Update" /></td>
+         <td><h:commandButton action="#{emp.delete()}" value="Delete" /></td>
+         </tr>
+         </table>
+         <h3>Employee Table Data</h3>
+         <h:dataTable value="#{emp.list}" var="r">
+             <h:column>
+                  <f:facet name="header">EmpID</f:facet>
+                  #{r.empid}
+             </h:column>
+             <h:column>
+                  <f:facet name="header">Name</f:facet>
+                  #{r.name}
+              </h:column>
+              <h:column>
+                   <f:facet name="header">salary</f:facet>
+                  #{r.salary}
+              </h:column>
+         </h:dataTable>
+        </h:form>
+   </body>
+   </html>

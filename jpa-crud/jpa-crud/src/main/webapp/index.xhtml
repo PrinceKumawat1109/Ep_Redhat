@@ -1,0 +1,36 @@
+<html xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+<head>
+	<title>JPA CRUD Operations</title>
+</head>
+<body>
+	<h3>CRUD Operations using JPA</h3>
+	<h:form>
+		<p>Employee ID : <h:inputText value="#{emp.empid}" /> <h:commandButton action="#{emp.find()}" value="find" /> </p>
+		<p>Employee Name : <h:inputText value="#{emp.name}" /> </p>
+		<p>Employee Salary : <h:inputText value="#{emp.salary}" /> </p>
+		<p>
+			<h:commandButton action="#{emp.insert()}" value="Insert" />
+			<h:commandButton action="#{emp.update()}" value="Update" />
+			<h:commandButton action="#{emp.delete()}" value="Delete" />
+		
+		</p>
+		<p> <h:outputLabel value="#{emp.response}" /> </p>
+		
+		<h:dataTable value="#{emp.list}" var="row">
+			<h:column>
+				<f:facet name="header">Emp ID</f:facet>
+				#{row.empid}
+			</h:column>
+			<h:column>
+				<f:facet name="header">Emp Name</f:facet>
+				#{row.name}
+			</h:column>
+			<h:column>
+				<f:facet name="header">Salary</f:facet>
+				#{row.salary}
+			</h:column>
+		</h:dataTable>
+	</h:form>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/princ/.m2/repository/junit/junit/4.11/junit-4.11.jar"/>
+  <path value="C:/Users/princ/.m2/repository/org/jboss/spec/javax/ejb/jboss-ejb-api_3.1_spec/1.0.2.Final/jboss-ejb-api_3.1_spec-1.0.2.Final.jar"/>
+  <path value="C:/Users/princ/.m2/repository/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar"/>
+  <path value="C:/Users/princ/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+  <path value="E:/EP_Redhat/ejb-dataseaccess/src/main/webapp/WEB-INF/lib/mysql-connector-java-8.0.29.jar"/>
+  <path value="/ejb-dataseaccess/src/main/webapp/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="ejb-dataseaccess"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/princ/.m2/repository/org/jboss/spec/javax/faces/jboss-jsf-api_2.2_spec/2.2.14/jboss-jsf-api_2.2_spec-2.2.14.jar"/>
+  <path value="C:/Users/princ/.m2/repository/mysql/mysql-connector-java/8.0.29/mysql-connector-java-8.0.29.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core"/>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="45" name="%0" offset="940" path="%1"/>
+   <linked-el length="47" name="%0" offset="1220" path="%1"/>
+   <linked-el length="45" name="%0" offset="1078" path="%1"/>
+   <linked-el length="45" name="%2" offset="940" path="%1"/>
+   <linked-el length="14" name="%2" offset="251" path="%1"/>
+   <linked-el length="13" name="%2" offset="318" path="%1"/>
+   <linked-el length="17" name="%2" offset="442" path="%1"/>
+   <linked-el length="16" name="%2" offset="537" path="%1"/>
+   <linked-el length="18" name="%2" offset="612" path="%1"/>
+   <linked-el length="47" name="%2" offset="1220" path="%1"/>
+   <linked-el length="18" name="%2" offset="691" path="%1"/>
+   <linked-el length="14" name="%2" offset="835" path="%1"/>
+   <linked-el length="45" name="%2" offset="1078" path="%1"/>
+   <linked-el length="15" name="%2" offset="386" path="%1"/>
+   <linked-el length="14" name="%3" offset="251" path="%1"/>
+   <linked-el length="13" name="%3" offset="318" path="%1"/>
+   <linked-el length="17" name="%3" offset="442" path="%1"/>
+   <linked-el length="16" name="%3" offset="537" path="%1"/>
+   <linked-el length="18" name="%3" offset="612" path="%1"/>
+   <linked-el length="18" name="%3" offset="691" path="%1"/>
+   <linked-el length="14" name="%3" offset="835" path="%1"/>
+   <linked-el length="15" name="%3" offset="386" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="/ejb-dataseaccess/src/main/webapp/index.xhtml" value="%1"/>
+  <alias path="/ejb-dataseaccess/src/main/java/com/entity/Employee.java" value="%0"/>
+  <alias path="emp" value="%2"/>
+  <alias
+   path="/ejb-dataseaccess/src/main/java/com/controller/EmployeeData.java" value="%3"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+ </uris>
+</kb-project>

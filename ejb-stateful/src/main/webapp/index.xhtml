@@ -1,0 +1,16 @@
+<HTML xmlns:h="http://java.sun.com/jsf/html">
+<HEAD>
+<TITLE>Stateful Session Bean</TITLE>
+</HEAD>
+<BODY>
+	<h3>Banking</h3>
+	<h:form>
+		<p>Balance = #{bank.bal}</p>
+		<p>Enter the amount to deposit :<h:inputText value="#{bank.damt}"/>
+		<h:commandButton action="#{bank.callEjbdeposit()}" value="Deposit" /></p>
+		<p>Enter the amount to withdraw :<h:inputText value="#{bank.wamt}"/>
+		<h:commandButton action="#{bank.callEjbwithdraw()}" value="withdraw" /></p>
+		
+	</h:form>
+</BODY>
+</HTML>

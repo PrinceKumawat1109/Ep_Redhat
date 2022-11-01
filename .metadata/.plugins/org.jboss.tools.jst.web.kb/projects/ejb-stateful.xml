@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/princ/.m2/repository/junit/junit/4.11/junit-4.11.jar"/>
+  <path value="C:/Users/princ/.m2/repository/org/jboss/spec/javax/ejb/jboss-ejb-api_3.1_spec/1.0.2.Final/jboss-ejb-api_3.1_spec-1.0.2.Final.jar"/>
+  <path value="C:/Users/princ/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+  <path value="/ejb-stateful/src/main/webapp/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="ejb-stateful"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/princ/.m2/repository/org/jboss/spec/javax/faces/jboss-jsf-api_2.2_spec/2.2.14/jboss-jsf-api_2.2_spec-2.2.14.jar"/>
+ </paths>
+ <validation>
+  <el>
+   <linked-el length="14" name="%0" offset="374" path="%1"/>
+   <linked-el length="28" name="%0" offset="418" path="%1"/>
+   <linked-el length="21" name="%0" offset="145" path="%1"/>
+   <linked-el length="14" name="%0" offset="225" path="%1"/>
+   <linked-el length="27" name="%0" offset="269" path="%1"/>
+   <linked-el length="14" name="%2" offset="374" path="%1"/>
+   <linked-el length="28" name="%2" offset="418" path="%1"/>
+   <linked-el length="21" name="%2" offset="145" path="%1"/>
+   <linked-el length="14" name="%2" offset="225" path="%1"/>
+   <linked-el length="27" name="%2" offset="269" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="bank" value="%0"/>
+  <alias path="/ejb-stateful/src/main/webapp/index.xhtml" value="%1"/>
+  <alias path="/ejb-stateful/src/main/java/com/controller/BankData.java" value="%2"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+ </uris>
+</kb-project>

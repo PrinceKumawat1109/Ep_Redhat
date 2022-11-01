@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;jsf-demo&apos; to &apos;jsf-calculator&apos;" description="Rename resource &apos;jsf-demo&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/jsf-demo" name="jsf-calculator" stamp="1655806724974" updateReferences="true"/>
+</session>

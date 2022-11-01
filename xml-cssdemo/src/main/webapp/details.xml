@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Style.css" type="text/css"?>
+<contact>
+	<person>
+		<name>kumar</name>
+		<email> klcse200030192@gmail.com</email>
+	</person>
+	<person>
+		<name>mohan</name>
+		<email>236355@gmail.com</email>
+	</person>
+</contact>

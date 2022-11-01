@@ -1,0 +1,32 @@
+<html xmlns:h="http://java.sun.com/jsf/html">
+<head>
+<title>Stateless session  bean</title>
+</head>
+<body>
+<h3>Addition</h3>
+<h:form>
+<p>input A :<h:inputText value="#{calc.a}" /> </p>
+<p>input B :<h:inputText value="#{calc.b}" /> </p>
+<p>Result =#{calc.c}</p>
+<h:commandButton action ="#{calc.callEjbAdd()}" value="ADD" />
+</h:form>
+<h3>Subtraction</h3>
+<h:form>
+<p>input A :<h:inputText value="#{calc.a}" /> </p>
+<p>input B :<h:inputText value="#{calc.b}" /> </p>
+<p>Result =#{calc.c}</p>
+<h:commandButton action ="#{calc.callEjbSub()}" value="SUBTRACT" />
+</h:form>
+<h:form>
+<p>input A :<h:inputText value="#{calc.a}" /> </p>
+<p>input B :<h:inputText value="#{calc.b}" /> </p>
+<p>Result =#{calc.c}</p>
+<h:commandButton action ="#{calc.callEjbMul()}" value="Multi" />
+</h:form>
+<h:form>
+<p>input A :<h:inputText value="#{calc.a}" /> </p>
+<p>input B :<h:inputText value="#{calc.b}" /> </p>
+<p>Result =#{calc.c}</p>
+<h:commandButton action ="#{calc.callEjbDiv()}" value="Div" />
+</h:form>
+</body></html>

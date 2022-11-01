@@ -1,0 +1,16 @@
+<html xmlns:h="http://java.sun.com/jsf/html">
+<head>
+	<title>JAX-RS: RESTful Demo</title>
+</head>
+<body>
+	<h3>Simple Calculator using JAX-RS</h3>
+	<h:form>
+		<p>Input A : <h:inputText value="#{calc.a}" /> </p>
+		<p>Input B : <h:inputText value="#{calc.b}" /> </p>
+		Result = #{calc.result}
+		<p><h:commandButton action="#{calc.callRestAdd()}" value="ADD (GET)" />
+		   <h:commandButton action="#{calc.callRestSubtract()}" value="SUB (POST)" />
+		</p>
+	</h:form>
+</body>
+</html>

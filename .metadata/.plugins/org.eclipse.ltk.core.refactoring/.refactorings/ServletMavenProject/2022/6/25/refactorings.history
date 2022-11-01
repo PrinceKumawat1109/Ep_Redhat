@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;demo.MYSQLdbconnectionestablish.java&apos; to &apos;MYSQLDBconnection.java&apos;&#x0D;&#x0A;- Original project: &apos;ServletMavenProject&apos;&#x0D;&#x0A;- Original element: &apos;demo.MYSQLdbconnectionestablish.java&apos;&#x0D;&#x0A;- Renamed element: &apos;demo.MYSQLDBconnection.java&apos;" description="Rename compilation unit &apos;MYSQLdbconnectionestablish.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;demo{MYSQLdbconnectionestablish.java" name="MYSQLDBconnection.java" references="false" stamp="1655546716992" version="1.0"/>
+</session>

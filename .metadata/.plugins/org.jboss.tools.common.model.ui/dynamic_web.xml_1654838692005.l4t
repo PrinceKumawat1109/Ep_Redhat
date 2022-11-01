@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout resource="/dynamic/src/main/webapp/WEB-INF/web.xml">
+ <TreeFormPage>
+  <Memento type="FileWebApp">
+   <Memento type="Web Descriptor 2.3"/>
+   <Memento type="Context Params"/>
+   <Memento type="Advanced"/>
+  </Memento>
+ </TreeFormPage>
+</Layout>

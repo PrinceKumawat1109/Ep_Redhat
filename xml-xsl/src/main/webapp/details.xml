@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Myxsl.xsl" ?>
+<contact>
+  <person>
+    <name>XXXX</name>
+    <mobile>2345123678</mobile>
+  </person>
+  <person>
+    <name>YYYY</name>
+    <mobile>4321567804</mobile>
+  </person>
+</contact>

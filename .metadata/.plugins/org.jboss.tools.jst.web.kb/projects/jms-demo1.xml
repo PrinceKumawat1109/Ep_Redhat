@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/princ/.m2/repository/junit/junit/4.11/junit-4.11.jar"/>
+  <path value="C:/Users/princ/.m2/repository/org/jboss/spec/javax/ejb/jboss-ejb-api_3.1_spec/1.0.2.Final/jboss-ejb-api_3.1_spec-1.0.2.Final.jar"/>
+  <path value="C:/Users/princ/.m2/repository/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar"/>
+  <path value="C:/Users/princ/.m2/repository/javax/enterprise/cdi-api/2.0.SP1/cdi-api-2.0.SP1.jar"/>
+  <path value="C:/Users/princ/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+  <path value="C:/Users/princ/.m2/repository/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar"/>
+  <path value="/jms-demo1/src/main/webapp/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="jms-demo1"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/princ/.m2/repository/javax/interceptor/javax.interceptor-api/1.2/javax.interceptor-api-1.2.jar"/>
+  <path value="C:/Users/princ/.m2/repository/org/jboss/spec/javax/faces/jboss-jsf-api_2.2_spec/2.2.14/jboss-jsf-api_2.2_spec-2.2.14.jar"/>
+  <path value="C:/Users/princ/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar"/>
+ </paths>
+ <validation>
+  <el>
+   <linked-el length="18" name="%0" offset="397" path="%1"/>
+   <linked-el length="19" name="%0" offset="249" path="%1"/>
+   <linked-el length="22" name="%0" offset="312" path="%1"/>
+   <linked-el length="13" name="%0" offset="193" path="%1"/>
+   <linked-el length="18" name="%2" offset="397" path="%1"/>
+   <linked-el length="19" name="%2" offset="249" path="%1"/>
+   <linked-el length="22" name="%2" offset="312" path="%1"/>
+   <linked-el length="13" name="%2" offset="193" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="jms" value="%0"/>
+  <alias
+   path="/jms-demo1/src/main/java/com/controller/JMSController.java" value="%2"/>
+  <alias path="/jms-demo1/src/main/webapp/index.xhtml" value="%1"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+ </uris>
+</kb-project>
